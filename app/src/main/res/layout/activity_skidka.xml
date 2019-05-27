@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Navigator.FragmentInform.FragmentInformDetail.ActivitySkidka">
+    <include
+        layout="@layout/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="56dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+        android:text="Персональные скидки"
+        android:textColor="@color/colorGroom"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        android:text="Groomer.com.ua запустил специальное акционное предложение для своих клиентов. Совершать покупки стало еще проще и дешевле. Мы предлагаем Вам гибкую систему скидок на Ваши заказы. Условия акции очень просты: оформите заказ на определенную сумму и получите фиксированную скидку на Вашу покупку. Чем больше сумма заказа, тем выше\t «%» скидки.\t"
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGroom"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Как эта акция работает?" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:layout_gravity="start|end"
+        android:text="Все очень просто! Весь товар, который Вы выбрали, автоматически попадает в «Корзину покупок» и суммируется. Сумма Вашей персональной скидки будет считаться при оформлении заказа и Вы сможете наглядно ее увидеть. В случае наличия у Вас дисконтной карты нашего интернет-магазина, то «%» Вашей скидки будет суммироваться со скидкой по заказу. Т.е. «персональная скидка по заказу» + «% скидки по Вашей дисконтной карте»."
+        android:textColor="#000"
+        android:textSize="16dp"
+    />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:text="​Данное предложение работает абсолютно для всех товаров, а процент скидки может изменятся."
+       />
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

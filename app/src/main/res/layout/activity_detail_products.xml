@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigator.Category.Products.DetailProduct.ActivityDetailProducts"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNamePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="normal|bold"
+                android:text="Name"
+                android:textColor="@color/colorGroom"/>
+            <ImageView
+                android:id="@+id/imageViewProodCoor"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/phon"
+                android:scaleType="center"/>
+            <ImageView
+        android:id="@+id/imageViewProod"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-245dp"
+        app:srcCompat="@drawable/logo_white" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/textViewСodeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Код товара: "
+                android:textStyle="normal|bold"
+                android:textSize="18dp"
+                android:textColor="@color/colorGroom"/>
+                <TextView
+               android:id="@+id/textViewСode"
+                  android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorBlack"
+              android:text="Сode" />
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:id="@+id/textViewManufacturerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold"
+                android:textSize="18dp"
+                android:text="Бренд: "
+                android:textColor="@color/colorGroom"/>
+            <TextView
+            android:id="@+id/textViewManufacturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+                android:textSize="18dp"
+
+                android:textColor="@color/colorBlack"
+            android:text="Manufacturer" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/textViewShortnameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGroom"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold"
+                android:textSize="18dp"
+                android:text="Товар: " />
+
+            <TextView
+                android:id="@+id/textViewShortname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:textSize="18dp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:text="Shortname" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/textViewDescriptionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold"
+                android:textSize="18dp"
+                android:text="О товаре: "
+                android:textColor="@color/colorGroom"/>
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+                android:textSize="18dp"
+                android:textColor="@color/colorBlack"
+                android:text="Description" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:id="@+id/textViewPriceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorGroom"
+                android:textStyle="normal|bold"
+                android:textSize="20dp"
+                android:text="Цена: " />
+
+            <TextView
+                android:id="@+id/textViewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginLeft="6dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="Price" />
+        </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textViewModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Model" />
+
+            <TextView
+                android:id="@+id/textViewSpecial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Special" />
+            <TextView
+                android:id="@+id/textViewSku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Sku" />
+
+            <TextView
+                android:id="@+id/textViewProductId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="ProductId" />
+
+
+            <WebView
+                android:id="@+id/textContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Fulldescription"/>
+
+            <TextView
+                android:id="@+id/textViewOutOfStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="OutOfStock" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigator.FragmentInform.FragmentOs"
+    android:layout_marginTop="90dp">
+
+    <TextView
+        android:id="@+id/textViewGG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorGroom"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="О магазине Groomer" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewG2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewG"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:text=" \n  Грум-маркет номер 1 в Украине\n  Грумеру, профессиональному заводчику, ветеринару, и просто любителю кошек и собак необходимы специальные средства, которые смогут обеспечить надлежащий уход за домашним питомцем.\n
+ В любое время, а особенно в период выставок, животное должно выглядеть наилучшим образом, для чего следует специально позаботиться о инструментах для груминга." />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigator.FragmentInform.FragmentDdos"
+    android:layout_marginTop="90dp">
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Оплата и доставка"
+        android:textColor="@color/colorGroom"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGroom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Доставка по Украине" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:text="Отправка товара по Вашим заказам осуществляется каждый день, кроме выходных дней (суббота и воскресенье). Одним из самых распространенных способов доставки на данное время является компания Новая Почта. Стоимость перевозки в ваш регион согласно тарифам компании-перевозчика. Доставка товара в Ваш город осуществляется службой доставки как до склада, так и курьером до двери по Вашему желанию. Товар высылается сразу же после согласования деталей доставки с нашим менеджером. Номер транспортной накладной вы получаете в день отправки на ваш номер телефона. Стоимость и сроки доставки Вы можете рассчитать самостоятельно на сайте Новой почты."
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGroom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Оплата" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:text="  -  Наложенный платеж (оплата при получении товара).\n Включает в себя осмотр товара и оплату при получении на отделении компании-перевозчика. Такой способ оплаты включает в себя комиссию в размере 2% от суммы заказа + 20 грн. обратная отправка денег в наш город.\n
+  Товар отправляется наложенным платежом, если сумма Вашего заказа превышает 300 грн. Если менее, то с предоплатой на карту.\n
+
+  -  Перевод на карту Приват Банка.\n В этом случае вы переплачиваете всего 0,5% от стоимости за перевод денег. Товар высылается тогда, когда мы получаем денежный платеж на наш счет.\n
+  -  Безналичный расчет для юридических лиц.\n На данный вид оплаты не действуют: скидки, акции, дисконты, промо-коды, предложения 'Вместе дешевле', специальная акция 'Нашли дешевле', персональные скидки, и подарки к товарам.\n"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGroom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Оплата и доставка оборудования!" />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:inputType="textMultiLine"
+                android:text="Доставка оборудования для груминга осуществляется во все города Украины после полной или частичной предоплаты. Это связано с тем, что посылка является крупногабаритной и наложенным платежом не оправляется. Оплатить можно на карту, счет который предоставит менеджер после оформления заказа."
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

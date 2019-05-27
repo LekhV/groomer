@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigator.FragmentHome.FragmentHome"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+        <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+
+        android:layout_height="220dp"
+            android:scaleType="centerCrop"
+        android:src="@drawable/groom_march" />
+
+            <Button
+        android:id="@+id/buttonLid"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+
+        android:background="@drawable/button_katal"
+        android:textColor="@color/colorWite"
+
+        android:textSize="20dp"
+        android:text="лидеры продаж" />
+
+
+            <Button
+                android:id="@+id/buttonall"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_marginTop="-18dp"
+                android:text="@string/all"
+                android:background="@drawable/button_katal"
+                android:layout_gravity="end"
+                android:textColor="@color/colorWite"
+                android:textSize="12dp"/>
+
+            <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recyclerViewLid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:id="@+id/buttonAkc"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_katal"
+        android:textColor="@color/colorWite"
+
+        android:textSize="20dp"
+        android:text="акционные товары" />
+
+
+            <Button
+                android:id="@+id/buttonall2"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_marginTop="-18dp"
+                android:text="@string/all"
+                android:background="@drawable/button_katal"
+                android:layout_gravity="end"
+                android:textColor="@color/colorWite"
+                android:textSize="12dp"/>
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/recyclerViewAkcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/buttonKat"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+
+                android:background="@drawable/button_katal"
+                android:text="Категории Товаров"
+                android:textColor="@color/colorWite"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/buttonall3"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_marginTop="-18dp"
+                android:text="@string/all"
+                android:background="@drawable/button_katal"
+                android:layout_gravity="end"
+                android:textColor="@color/colorWite"
+                android:textSize="12dp"/>
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/recyclerViewKat2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="255dp"
+                        android:background="@drawable/prof">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="255dp"
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_margin="10dp" >
+                            <RelativeLayout
+                                android:layout_width="160dp"
+                                android:layout_height="255dp"
+                                android:background="@color/colorGray">
+                                <ImageView
+                                    android:id="@+id/imageViewMashinki1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    app:srcCompat="@drawable/color_groom"
+                                    android:scaleType="center"/>
+
+                                <ImageView
+                                    android:id="@+id/imageViewCatMashinki1"
+                                    android:layout_width="146dp"
+                                    android:layout_height="146dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginLeft="12dp"
+                                    app:srcCompat="@drawable/logo_white" />
+
+
+                                <LinearLayout
+                                    android:layout_width="160dp"
+                                    android:layout_height="105dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="174dp"
+                                    android:background="@color/colorGray"
+                                    android:gravity="center_horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewCatNameMashinki1"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:gravity="center"
+                                        android:text="Машинки и аксессуары"
+                                        android:textColor="@color/colorGroom"
+                                        android:textSize="20dp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="255dp"
+                        android:background="@drawable/prof"
+                        android:layout_marginLeft="4dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="255dp"
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_margin="10dp" >
+                            <RelativeLayout
+                                android:layout_width="160dp"
+                                android:layout_height="255dp"
+                                android:background="@color/colorGray">
+                                <ImageView
+                                    android:id="@+id/imageViewNog1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    app:srcCompat="@drawable/color_groom"
+                                    android:scaleType="center"/>
+
+                                <ImageView
+                                    android:id="@+id/imageViewCatNog1"
+                                    android:layout_width="146dp"
+                                    android:layout_height="146dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginLeft="12dp"
+                                    app:srcCompat="@drawable/logo_white" />
+
+
+                                <LinearLayout
+                                    android:layout_width="160dp"
+                                    android:layout_height="105dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="174dp"
+                                    android:background="@color/colorGray"
+                                    android:gravity="center_horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewCatNameNog1"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:gravity="center"
+                                        android:text="Ножницы для груминга"
+                                        android:textColor="@color/colorGroom"
+                                        android:textSize="20dp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="255dp"
+                        android:background="@drawable/prof">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="255dp"
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_margin="10dp" >
+                            <RelativeLayout
+                                android:layout_width="160dp"
+                                android:layout_height="255dp"
+                                android:background="@color/colorGray">
+                                <ImageView
+                                    android:id="@+id/imageViewFenu1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    app:srcCompat="@drawable/color_groom"
+                                    android:scaleType="center"/>
+
+                                <ImageView
+                                    android:id="@+id/imageViewCatFenu1"
+                                    android:layout_width="146dp"
+                                    android:layout_height="146dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginLeft="12dp"
+                                    app:srcCompat="@drawable/logo_white" />
+
+
+                                <LinearLayout
+                                    android:layout_width="160dp"
+                                    android:layout_height="105dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="174dp"
+                                    android:background="@color/colorGray"
+                                    android:gravity="center_horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewCatNameFenu1"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:gravity="center"
+                                        android:text="Фены для груминга"
+                                        android:textColor="@color/colorGroom"
+                                        android:textSize="20dp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="255dp"
+                        android:background="@drawable/prof"
+                        android:layout_marginLeft="4dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="255dp"
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_margin="10dp" >
+                            <RelativeLayout
+                                android:layout_width="160dp"
+                                android:layout_height="255dp"
+                                android:background="@color/colorGray">
+                                <ImageView
+                                    android:id="@+id/imageViewObor1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    app:srcCompat="@drawable/color_groom"
+                                    android:scaleType="center"/>
+
+                                <ImageView
+                                    android:id="@+id/imageViewCatObor1"
+                                    android:layout_width="146dp"
+                                    android:layout_height="146dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginLeft="12dp"
+                                    app:srcCompat="@drawable/logo_white" />
+
+
+                                <LinearLayout
+                                    android:layout_width="160dp"
+                                    android:layout_height="105dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="174dp"
+                                    android:background="@color/colorGray"
+                                    android:gravity="center_horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewCatNameObor1"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:gravity="center"
+                                        android:text="Оборудование для груминга"
+                                        android:textColor="@color/colorGroom"
+                                        android:textSize="20dp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="255dp"
+                        android:background="@drawable/prof">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="255dp"
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_margin="10dp" >
+                            <RelativeLayout
+                                android:layout_width="160dp"
+                                android:layout_height="255dp"
+                                android:background="@color/colorGray">
+                                <ImageView
+                                    android:id="@+id/imageViewAkcec1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    app:srcCompat="@drawable/color_groom"
+                                    android:scaleType="center"/>
+
+                                <ImageView
+                                    android:id="@+id/imageViewCatAkcec1"
+                                    android:layout_width="146dp"
+                                    android:layout_height="146dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginLeft="12dp"
+                                    app:srcCompat="@drawable/logo_white" />
+
+
+                                <LinearLayout
+                                    android:layout_width="160dp"
+                                    android:layout_height="105dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="174dp"
+                                    android:background="@color/colorGray"
+                                    android:gravity="center_horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewCatNameAkcec1"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:gravity="center"
+                                        android:text="Аксессуары для животных"
+                                        android:textColor="@color/colorGroom"
+                                        android:textSize="20dp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="255dp"
+                        android:background="@drawable/prof"
+                        android:layout_marginLeft="4dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="255dp"
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_margin="10dp" >
+                            <RelativeLayout
+                                android:layout_width="160dp"
+                                android:layout_height="255dp"
+                                android:background="@color/colorGray">
+                                <ImageView
+                                    android:id="@+id/imageViewKosm1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    app:srcCompat="@drawable/color_groom"
+                                    android:scaleType="center"/>
+
+                                <ImageView
+                                    android:id="@+id/imageViewCatKosm1"
+                                    android:layout_width="146dp"
+                                    android:layout_height="146dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginLeft="12dp"
+                                    app:srcCompat="@drawable/logo_white" />
+
+
+                                <LinearLayout
+                                    android:layout_width="160dp"
+                                    android:layout_height="105dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="174dp"
+                                    android:background="@color/colorGray"
+                                    android:gravity="center_horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewCatNameKosm1"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:gravity="center"
+                                        android:text="Косметика для животных"
+                                        android:textColor="@color/colorGroom"
+                                        android:textSize="20dp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="255dp"
+                        android:background="@drawable/prof">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="255dp"
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_margin="10dp" >
+                            <RelativeLayout
+                                android:layout_width="160dp"
+                                android:layout_height="255dp"
+                                android:background="@color/colorGray">
+                                <ImageView
+                                    android:id="@+id/imageViewKreat1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    app:srcCompat="@drawable/color_groom"
+                                    android:scaleType="center"/>
+
+                                <ImageView
+                                    android:id="@+id/imageViewCatKreat1"
+                                    android:layout_width="146dp"
+                                    android:layout_height="146dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginLeft="12dp"
+                                    app:srcCompat="@drawable/logo_white" />
+
+
+                                <LinearLayout
+                                    android:layout_width="160dp"
+                                    android:layout_height="105dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="174dp"
+                                    android:background="@color/colorGray"
+                                    android:gravity="center_horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewCatNameKreat1"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:gravity="center"
+                                        android:text="Креативный груминг"
+                                        android:textColor="@color/colorGroom"
+                                        android:textSize="20dp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="255dp"
+                        android:background="@drawable/prof"
+                        android:layout_marginLeft="4dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="255dp"
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_margin="10dp" >
+                            <RelativeLayout
+                                android:layout_width="160dp"
+                                android:layout_height="255dp"
+                                android:background="@color/colorGray">
+                                <ImageView
+                                    android:id="@+id/imageViewUtug1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    app:srcCompat="@drawable/color_groom"
+                                    android:scaleType="center"/>
+
+                                <ImageView
+                                    android:id="@+id/imageViewCatUtug1"
+                                    android:layout_width="146dp"
+                                    android:layout_height="146dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginLeft="12dp"
+                                    app:srcCompat="@drawable/logo_white" />
+
+
+                                <LinearLayout
+                                    android:layout_width="160dp"
+                                    android:layout_height="105dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="174dp"
+                                    android:background="@color/colorGray"
+                                    android:gravity="center_horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewCatNameUtug1"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:gravity="center"
+                                        android:text="Утюжки и плойки для груминга"
+                                        android:textColor="@color/colorGroom"
+                                        android:textSize="20dp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal"
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="255dp"
+
+                        android:background="@drawable/prof">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="255dp"
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:layout_margin="10dp" >
+                            <RelativeLayout
+                                android:layout_width="160dp"
+                                android:layout_height="255dp"
+                                android:background="@color/colorGray">
+                                <ImageView
+                                    android:id="@+id/imageViewYkrash1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    app:srcCompat="@drawable/color_groom"
+                                    android:scaleType="center"/>
+
+                                <ImageView
+                                    android:id="@+id/imageViewCatYkrash1"
+                                    android:layout_width="146dp"
+                                    android:layout_height="146dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginLeft="12dp"
+                                    app:srcCompat="@drawable/logo_white" />
+
+
+                                <LinearLayout
+                                    android:layout_width="160dp"
+                                    android:layout_height="105dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="174dp"
+                                    android:background="@color/colorGray"
+                                    android:gravity="center_horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewCatNameYkrash1"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:gravity="center"
+                                        android:text="Украшения для животных"
+                                        android:textColor="@color/colorGroom"
+                                        android:textSize="20dp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginBottom="-4dp"
+                android:layout_marginTop="5dp"
+              android:gravity="center"
+                android:background="@color/colorGray">
+                <ImageView
+                    android:id="@+id/imageViewsocial_fb"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:src="@drawable/fb" />
+                <ImageView
+                    android:id="@+id/imageViewsocial_youtube"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:src="@drawable/utyb" />
+                <ImageView
+                    android:id="@+id/imageViewsocial_istagram"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:src="@drawable/inst" />
+                <ImageView
+                    android:id="@+id/imageViewsocial_telegram"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:src="@drawable/trlrg" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_horizontal"
+                    android:text="© 2011-2019 г." />
+            <TextView
+                android:id="@+id/noteview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:gravity="center_horizontal"
+                android:text="Groomer.com.ua." />
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="Все права защищены." />
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Копирование материалов запрещено." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Gl"
+            android:icon="@mipmap/ic_launcher_home_black"
+            android:title="Главная" />
+        <item
+            android:id="@+id/nav_Kat"
+            android:icon="@mipmap/ic_launcher_module_black"
+            android:title="Каталог" />
+        <item
+            android:id="@+id/nav_AkcTov"
+            android:icon="@mipmap/ic_launcher_icons14"
+            android:title="Акционные товары" />
+        <item
+        android:id="@+id/nav_Lid"
+        android:icon="@mipmap/ic_launcher_loyalty_black"
+        android:title="Лидеры продаж" />
+
+        <item
+        android:id="@+id/nav_Ak"
+        android:icon="@mipmap/ic_launcher_offer_black"
+        android:title="Акции" />
+
+
+        <item
+            android:id="@+id/nav_manageNew"
+            android:icon="@mipmap/ic_launcher_notes_black"
+            android:title="Новости" />
+        <item
+            android:id="@+id/nav_manageKor"
+            android:icon="@mipmap/ic_launcher_baseline_shopping"
+            android:title="Корзина" />
+
+    </group>
+
+        <item
+            android:id="@+id/nav_Inf"
+            android:icon="@mipmap/ic_launcher_inforn"
+            android:title="Информация" />
+
+            <item
+                android:id="@+id/nav_cont"
+                android:icon="@mipmap/ic_launcher_cont"
+                android:title="Контакты" />
+            <item
+                android:id="@+id/nav_ddos"
+                android:icon="@mipmap/ic_launcher_dost2"
+                android:title="Доставка и оплата" />
+
+            <item
+                android:id="@+id/nav_os"
+                android:icon="@mipmap/ic_launcher_o_nas2"
+                android:title="O магазине" />
+        <item
+            android:id="@+id/nav_Nas"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Настройки" />
+
+</menu>

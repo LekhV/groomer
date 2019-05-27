@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="266dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="170dp"
+        android:layout_height="266dp"
+
+        android:background="@drawable/prof">
+
+        <ImageView
+            android:id="@+id/imageViewProodCoorAkciibig"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="center"
+            app:srcCompat="@drawable/color_groom" />
+
+        <ImageView
+            android:id="@+id/imageViewProodAkciibig"
+            android:layout_width="146dp"
+            android:layout_height="146dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            app:srcCompat="@drawable/logo_white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="164dp"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:id="@+id/textViewNamePriceAkciibigold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="10000 грн."
+                android:textColor="#000000"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/textViewNamePriceLAkciiNorm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="10000 грн."
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:textColor="@color/colorGroom"
+                android:textSize="16dp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:id="@+id/textViewNamePriceAkciibig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="2dp"
+                android:text="10000 грн."
+                android:textColor="@color/colorGroom"
+                android:textSize="16dp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textViewNewArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Артикул: "
+            android:textSize="12dp"
+            android:textColor="@color/colorGroom"/>
+        <TextView
+            android:id="@+id/textViewNamePriceAkciibigArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Артикул"
+            android:textColor="#000000" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewNameNameAkciibig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="center_horizontal"
+            android:text="NameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameName"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

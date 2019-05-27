@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigator.FragmentInform.FragmentInformDetail.ActivityGarant">
+    <include
+        layout="@layout/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Помощь: Гарантия и обслуживание инструмента."
+        android:textColor="@color/colorGroom"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGroom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Условия предоставления гарантии на грумерский инструмент" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+            android:text="Groomer.com.ua предоставляет сервисное обслуживание на период действия гарантийного талона, а также после его окончания. Сервисное обслуживание осуществляется только в специализированном сервисном центре в г. Запорожье. Предоставить оборудование на сервис возможно с помощью службы перевозчика Новая почта, предварительно согласовав с менеджером магазина условия, а также получение реквизитов для отправки инструментов. Компания Groomer.com.ua осуществляет сервисное обслуживание для всех клиентов которые находятся на территории Украины."
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGroom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Условия предоставления гарантии:" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+            android:text="1. Электроинструмент имеет срок гарантии 12 месяцев. Исключение: инструмент работающий от батареек (АА или ААА) - не обслуживается.\n
+2. Гарантия предоставляется только при наличии четко заполненного гарантийного талона, на котором должно быть указано: наименование товара, артикул, дата приобретения, срок гарантии, подпись менеджера магазина.\n
+3. Гарантийный ремонт выполняется только на период действия гарантийного талона. После истечения срока гарантии, предоставляется послегарантийный ремонт.\n
+4. Оплата за доставку неисправного изделия по вине клиента, оплачивается клиентом. В случае неисправности по гарантии (определяется мастером сервисного центра интернет-магазина) – оплачивает доставку интернет-магазин.\n
+5. Срок выполнения гарантийных обязательств (послегарантийного ремонта) зависит от сложности и может занимать от 7 до 14 рабочих дней.\n
+6. Изделие снимается с гарантии в случаях, если были обнаружены:\n
+- Следы постороннего вмешательства и попытка самостоятельного ремонта;\n
+- Повреждения, вызванные чрезмерными нагрузками, ненадлежащим обращением или техническим уходом;\n
+- Механические повреждения изделия:сколы корпуса, попадания внутрь изделия посторонних предметов, жидкостей и прочего."
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorGroom"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Условия гарантии на ножницы для груминга:" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:text="Groomer.com.ua предоставляет 7 дней гарантии на все ножницы для стрижки доступные к продаже в интернет-магазине. Данная гарантия предоставляется покупателю как проверочная, и позволяет покупателю оценить степень удобства в работе и другие качества. После истечения 7 дней, претензии по возврату ножниц не принимаются."/>
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:text="Сервисное обслуживание и послегарантийный ремонт осуществляется только для оборудования предоставленного в чистом виде! В противном случае в стоимость ремонта будет включена чистка оборудования."/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGroom"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Гарантия не распространяется:" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:inputType="textMultiLine"
+android:text=" - Расходные материалы;\n
+ - Ручной инструмент;\n
+ - Ножи и ножевые блоки;\n
+ - Косметические средства;\n
+ - Лампы;\n
+ - Сетевые шнуры;\n
+ - Угольные щетки;\n
+ - Элементы питания и прочее.\n
+
+Дополнительные вопросы касающиеся гарантии, Вы можете задать менеджеру интернет-магазина Groomer в любое рабочее время!" />
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

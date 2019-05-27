@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigator.Category.Products.DetailProduct.DetailProductsNew.AllHar.FragmentALLHar"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNamePriceNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="normal|bold"
+                android:text="Name"
+                android:textColor="@color/colorGroom"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+            <ImageView
+                android:id="@+id/imageViewProodCoorNew"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="7dp"
+                app:srcCompat="@drawable/color_groom"
+                android:scaleType="center"/>
+            <ImageView
+                android:id="@+id/imageViewProodNew"
+                android:layout_width="244dp"
+                android:layout_height="244dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-247dp"
+                app:srcCompat="@drawable/logo_white" />
+
+            <ImageView
+                android:id="@+id/imageViewProodNew2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:layout_gravity="end"
+                android:layout_marginTop="-40dp"
+                app:srcCompat="@drawable/icons8zoomt" />
+        </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewResProductPfoto"
+android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textViewManufacturerTextNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="normal|bold"
+                    android:textSize="18dp"
+                    android:text="Бренд: "
+                    android:textColor="@color/colorGroom"/>
+                <TextView
+                    android:id="@+id/textViewManufacturerNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+
+                    android:textColor="@color/colorBlack"
+                    android:text="Manufacturer" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewСodeTextNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Код товара: "
+                    android:textStyle="normal|bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorGroom"/>
+                <TextView
+                    android:id="@+id/textViewСodeNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorBlack"
+                    android:text="Сode" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewShortnameTextNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorGroom"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="normal|bold"
+                    android:textSize="18dp"
+                    android:text="Артикул: " />
+
+                <TextView
+                    android:id="@+id/textViewShortnameNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="10dp"
+                    android:text="Shortname" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewDescriptionTextNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="normal|bold"
+                    android:textSize="18dp"
+                    android:text="О товаре: "
+                    android:textColor="@color/colorGroom"/>
+
+                <TextView
+                    android:id="@+id/textViewDescriptionNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorBlack"
+                    android:text="Description" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/textViewSpecialNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="70dp"
+                    android:visibility="gone"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGroom"
+
+                    android:text="Price"
+                    />
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            >
+            <TextView
+                android:id="@+id/textViewPriceTextNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGroom"
+                android:textStyle="normal|bold"
+                android:textSize="20dp"
+                android:text="Цена: " />
+
+            <TextView
+                android:id="@+id/textViewPriceNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="6dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="Price"
+                />
+        </LinearLayout>
+
+            <WebView
+                android:id="@+id/textContentNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Fulldescription"
+                android:visibility="gone"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewSk1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"
+                android:text="Ваша персональная скидка:" />
+
+            <TextView
+                android:id="@+id/textViewSk2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"
+                android:text= "@string/name_noteview" />
+
+            <TextView
+                android:id="@+id/textViewSk3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"
+                android:text="От 3000 грн. - 3%\nОт 5000 грн. - 5%\nОт 10000 грн. - 7%"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="6dp"
+                >
+
+            <Button
+                android:id="@+id/buttonVKor"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_groom"
+                android:text="В корзину"
+                android:textColor="@color/colorWite" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_gray"
+                android:layout_marginTop="10dp"
+                android:text="Купить в 1 клик"
+                android:textColor="@color/colorBlack"
+                android:layout_marginBottom="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    app:cardElevation="4dp">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/prof"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <ImageView
+        android:id="@+id/imageViewProodCoorLidssbig"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/color_groom"
+        android:scaleType="center"/>
+    <ImageView
+        android:id="@+id/imageViewProodLidssbig"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/logo_white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" >
+
+
+        <TextView
+            android:id="@+id/textViewNamePriceLidssbigold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:text="10000 грн."
+            android:textColor="#000000"
+            android:textSize="28dp" />
+        <TextView
+            android:id="@+id/textViewNamePriceLidssbignNorm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="10000 грн."
+            android:layout_gravity="center_horizontal"
+           android:visibility="gone"
+            android:textColor="@color/colorGroom"
+            android:textSize="28dp"
+            android:textStyle="normal|bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/textViewNamePriceLidssbig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="10000 грн."
+            android:textColor="@color/colorGroom"
+            android:textSize="28dp"
+            android:visibility="visible"
+            android:textStyle="normal|bold"
+            android:typeface="sans" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" >
+        <TextView
+            android:id="@+id/textViewNamePriceLidssbigKod2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Код товара: "
+            android:textColor="@color/colorGroom"
+            android:textSize="20dp"
+            android:textStyle="normal|bold"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/textViewNamePriceLidssbigKod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Код товара"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" >
+        <TextView
+            android:id="@+id/textViewNamePriceLidssbigArt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Артикул: "
+            android:textColor="@color/colorGroom"
+            android:textSize="20dp"
+            android:textStyle="normal|bold"
+            android:typeface="sans" />
+    <TextView
+        android:id="@+id/textViewNamePriceLidssbigArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Артикул"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textViewNameNameLidssbig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textViewNamePriceLidss"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginBottom="6dp"
+        android:text="NameNameNameNameNameNameNameNameName"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonLidersBig"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_katal"
+        android:text="Добавить в Корзину"
+
+        android:drawableRight="@mipmap/ic_launcher_grocery_store_white2"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWite"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>

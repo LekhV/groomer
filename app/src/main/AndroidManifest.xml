@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lekh.grommer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_groomer_3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_groomer_3"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashscreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Navigator.Category.PodCategory.ActivityPodCategory" />
+        <activity android:name=".Navigator.Category.Products.ActivityProducts" />
+        <activity android:name=".Navigator.Category.Products.DetailProduct.ActivityDetailProducts" />
+        <activity android:name=".Navigator.FragmentInform.FragmentInformDetail.ActivitySkidka" />
+        <activity android:name=".Navigator.FragmentInform.FragmentInformDetail.ActivityOtpr" />
+        <activity android:name=".Navigator.FragmentInform.FragmentInformDetail.ActivityGarant" />
+        <activity android:name=".Navigator.Category.Products.DetailProduct.DetailProductsNew.ActivityDetailsProductNew" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Navigator.FragmentInform.FragmentInformDetail.ActivityProfKon" />
+        <activity android:name=".Navigator.FragmentInform.FragmentInformDetail.ActivityObmIVoz" />
+        <activity android:name=".Navigator.Category.Products.DetailProduct.DetailProductsNew.Photos.ActivityPfoto" />
+        <activity android:name=".Navigator.Category.CategoryNew.ActivityCategoryNew" />
+        <activity android:name=".Navigator.FragmentNovosti.NovotiDetal.ActivityNovotiDetal"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigator.FragmentInform.FragmentInformDetail.ActivityObmIVoz">
+
+    <include
+        layout="@layout/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Помощь: Возврат и обмен товара."
+        android:textColor="@color/colorGroom"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGroom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Общее положение о возврате и обмене товара в интернет-магазине Groomer.com.ua" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+android:text="Согласно Закону Украины 'О защите прав потребителей' клиенты интернет-магазина Groomer могут оформить возврат или обмен товара в течении 14 дней с момента покупки. Ножницы для груминга имеют 7-ми дневный проверочный срок гарантии в течении которого возможен возврат и обмен.\n
+        Возврату и обмену не подлежат такие группы товаров:\n
+  1. Косметические средства.\n  2. Средства для личной гигиены животных.\n  3. Средства предназначенные для ухода за инструментами.\n  4. Ручной инструмент для ухода за животными."
+            android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGroom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Обязательные условия которым должен соответствовать товар при оформлении возврата или обмена" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:text=" Перед отправкой товара обратно в интернет-магазин, покупатель должен убедиться в том, что:\n
+  - Товар и упаковка надлежащего качества и имеют товарный вид.\n  - Товар имеет полную заводскую комплектацию.\n  - Присутствует заполненный гарантийный талон или товарная накладная с логотипом компании Groomer.com.ua."
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGroom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Как оформить возврат или обмен товара в магазине Groomer.com.ua ?" />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:inputType="textMultiLine"
+android:text="Потребитель имеет право вернуть или обменять непродовольственный товар, если он ему не подошел по габариту, цвету, размеру или по другим причинам. Процесс оформления возврата состоит из нескольких этапов:\n
+  1. Возврат и обмен товара оформляет менеджер магазина только в рабочее время. Перед отправкой товара покупатель обязан уведомить менеджера интернет-магазина по телефону (заказать обратный звонок на сайте, или обратится по указанным номерам).\n  2. После составления заявки на 'возврат/обмен', менеджер магазина в обязательном порядке отправляет клиенту 'СМС-сообщение' с указанием адреса, куда требуется направить товар, для осуществления возврата.\n  3. Клиент направляет товар только по реквизитам указанным в 'СМС-сообщении'. Невыполнение данного условия может в значительной мере продлить процесс возврата и обмена товара!\n  4. После получения товара менеджером интернет-магазина, он осматривается на предмет целостности и соответствия.\n  5. После осмотра возвращаемого товара, менеджер интернет-магазина Groomer.com.ua в обязательном порядке оговаривает с клиентом детали, касающиеся обмена товара или возврата средст.\n
+
+    Примечание: Возврат товара осуществляется только в будние дни. Отправка товара 'на обмен' осуществляется на следующий день после получения возврата. Возврат средств осуществляется только в будние дни, и только после осмотра товара менеджером магазина."
+            />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:text="  Оплата доставки:" />
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:inputType="textMultiLine"
+                android:text="  Оплата за доставку осуществляется интернет-магазином в случае, если возврат и обмен товара производится по вине магазина (товар в заказе не соответствует полученному товару, или товар находится не в полной комплектации). Во всех остальных случаях - оплата за доставку товара осуществляется покупателем."
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

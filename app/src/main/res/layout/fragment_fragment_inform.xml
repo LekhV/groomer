@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigator.FragmentInform.FragmentInform"
+    android:layout_marginTop="90dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/buttonSkidka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ваша персональная скидка"
+
+        android:drawableRight="@mipmap/ic_launcher_proc"
+        android:paddingRight="-4dp"
+
+        android:background="@drawable/button_katal"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:textColor="@color/colorWite"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonOtpr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Отправка товара в день заказа"
+
+        android:drawableRight="@mipmap/ic_launcher_dost"
+        android:paddingRight="-4dp"
+
+        android:background="@drawable/button_katal"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:textColor="@color/colorWite"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonGarant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=" Гарантия и обслуживание инструмента"
+
+        android:drawableRight="@mipmap/ic_launcher_garan"
+        android:paddingRight="-4dp"
+        android:background="@drawable/button_katal"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:textColor="@color/colorWite"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonProf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Профессиональная консультация  по выбору инструмента"
+        android:drawableRight="@mipmap/ic_launcher_prof"
+        android:paddingRight="-4dp"
+        android:background="@drawable/button_katal"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:textColor="@color/colorWite"
+        android:textSize="20dp"  />
+
+    <Button
+        android:id="@+id/buttonObmen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Обмен и возврат товара в течении 14 дней"
+
+        android:drawableRight="@mipmap/ic_launcher_obmen"
+        android:paddingRight="-4dp"
+
+        android:background="@drawable/button_katal"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:textColor="@color/colorWite"
+        android:textSize="20dp"  />
+
+</LinearLayout>
+</RelativeLayout>
